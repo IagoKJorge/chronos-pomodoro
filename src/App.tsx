@@ -1,11 +1,19 @@
 import './styles/theme.css';
 import './styles/global.css';
 
+import { Heading } from './components/Heading';
+import { TimerIcon } from 'lucide-react';
+
+
 export function App() {
   return (
     <>
-      <h1>Aiin</h1>
-      <p>Zé da Manga</p>
+      <Heading>
+        Oiin!
+        <button>
+          <TimerIcon />
+        </button>  
+      </Heading> 
     </>
   );
 }
